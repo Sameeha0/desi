@@ -1,0 +1,13 @@
+Paintings from Wikimedia Commons (see each file page for author & licence):
+madhubani.jpg  <-  https://commons.wikimedia.org/wiki/File:Madhubani_Mahavidyas.jpg
+warli.jpg  <-  https://commons.wikimedia.org/wiki/File:Painted_prayers,_Warli_paintings,_at_Sanskriti_Kendra,_Anandagram,_New_Delhi.jpg
+gond.jpg  <-  https://commons.wikimedia.org/wiki/File:Gond_Painting_of_MP1.JPG
+pattachitra.jpg  <-  https://commons.wikimedia.org/wiki/File:Odisha_Pattachitara_Depicting_Unconditional_Love_between_Radha_Krushna.jpg
+kalamkari.jpg  <-  https://commons.wikimedia.org/wiki/File:Kalamkari_painting_of_Lord_Vishnu_on_serpent_Ananta.jpg
+tanjore.jpg  <-  https://commons.wikimedia.org/wiki/File:Thanjavur_art_from_south_India.jpg
+pichwai.jpg  <-  https://commons.wikimedia.org/wiki/File:MET_DP156677.jpg
+kerala-mural.jpg  <-  https://commons.wikimedia.org/wiki/File:Kris_mural7.jpg
+mughal-miniature.jpg  <-  https://commons.wikimedia.org/wiki/File:Govardhan._Jahangir_Visiting_the_Ascetic_Jadrup._ca._1616-20,_Musee_Guimet,_Paris.jpg
+rangoli.jpg  <-  https://commons.wikimedia.org/wiki/File:Diya_deepak_Diwali_rangoli_in_goa.JPG
+kalighat.jpg  <-  https://commons.wikimedia.org/wiki/File:India,_Kalighat_painting,_19th_century_-_Two_Aspects_of_Kali-_Kali_Enshrined_-_1980.216.b_-_Cleveland_Museum_of_Art.jpg
+phad.jpg  <-  https://commons.wikimedia.org/wiki/File:Pabuji_ka_phad_01.JPG

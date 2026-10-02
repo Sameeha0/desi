@@ -1,0 +1,17 @@
+Film posters from English Wikipedia (non-free, used here for a non-commercial student quiz booth):
+sholay.jpg  <-  https://en.wikipedia.org/wiki/File:Sholay-poster.jpg
+ddlj.jpg  <-  https://en.wikipedia.org/wiki/File:Dilwale_Dulhania_Le_Jayenge_poster.jpg
+3-idiots.jpg  <-  https://en.wikipedia.org/wiki/File:3_idiots_poster.jpg
+lagaan.jpg  <-  https://en.wikipedia.org/wiki/File:Lagaan.jpg
+rrr.jpg  <-  https://en.wikipedia.org/wiki/File:RRR_Poster.jpg
+baahubali.jpg  <-  https://en.wikipedia.org/wiki/File:Baahubali_The_Beginning_poster.jpg
+dangal.jpg  <-  https://en.wikipedia.org/wiki/File:Dangal_Poster.jpg
+taare-zameen-par.png  <-  https://en.wikipedia.org/wiki/File:Taare_Zameen_Par_Like_Stars_on_Earth_poster.png
+chak-de-india.jpg  <-  https://en.wikipedia.org/wiki/File:Chak_De!_India.jpg
+kuch-kuch-hota-hai.jpg  <-  https://en.wikipedia.org/wiki/File:Kuch_Kuch_Hota_Hai_poster.jpg
+k3g.jpg  <-  https://en.wikipedia.org/wiki/File:Kabhi_Khushi_Kabhie_Gham..._poster.jpg
+mughal-e-azam.jpg  <-  https://en.wikipedia.org/wiki/File:Mughal-e-Azam.jpg
+pushpa.jpg  <-  https://en.wikipedia.org/wiki/File:Pushpa_-_The_Rise_(2021_film).jpg
+om-shanti-om.jpg  <-  https://en.wikipedia.org/wiki/File:Om_Shanti_Om.jpg
+kgf.jpg  <-  https://en.wikipedia.org/wiki/File:K.G.F_Chapter_1_poster.jpg
+pathaan.jpg  <-  https://en.wikipedia.org/wiki/File:Pathaan_film_poster.jpg
