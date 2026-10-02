@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Mahal – The Great Indian Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Rozha+One&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- marigold garland + bunting flags -->
+  <div class="garland"></div>
+  <div class="toran" id="toran"></div>
+
+  <div class="marquee">
+    <div class="marquee-text">
+      ✦ Horn OK Please ✦ Welcome to International Day ✦ Test Your Desi IQ ✦ नमस्ते ✦ Vanakkam ✦ Sat Sri Akal ✦ Khamma Ghani ✦ Picture Abhi Baaki Hai ✦
+      ✦ Horn OK Please ✦ Welcome to International Day ✦ Test Your Desi IQ ✦ नमस्ते ✦ Vanakkam ✦ Sat Sri Akal ✦ Khamma Ghani ✦ Picture Abhi Baaki Hai ✦
+    </div>
+  </div>
+
+  <main class="poster">
+    <header>
+      <p class="presents">✺ International Day Booth Presents ✺</p>
+      <h1>Quiz Mahal</h1>
+      <p class="hindi">भारत की महा पहेली</p>
+      <p class="tagline">★ The Great Indian Quiz ★ A Blockbuster For Beginners ★</p>
+    </header>
+
+    <!-- HOME SCREEN -->
+    <section id="home" class="screen active">
+      <div class="center"><h2 class="ribbon">Choose Your Quiz</h2></div>
+
+      <div class="cards">
+        <button class="card c-art" data-cat="art">
+          <span class="emoji">🎨</span>
+          <span class="name">Art Styles</span>
+          <span class="hin">कला</span>
+        </button>
+        <button class="card c-actors" data-cat="actors">
+          <span class="emoji">🌟</span>
+          <span class="name">Actors</span>
+          <span class="hin">सितारे</span>
+        </button>
+        <button class="card c-movies" data-cat="movies">
+          <span class="emoji">🎬</span>
+          <span class="name">Guess the Movie</span>
+          <span class="hin">फ़िल्में</span>
+        </button>
+        <button class="card c-festivals" data-cat="festivals">
+          <span class="emoji">🪔</span>
+          <span class="name">Festivals</span>
+          <span class="hin">त्योहार</span>
+        </button>
+        <button class="card c-language" data-cat="language">
+          <span class="emoji">🔤</span>
+          <span class="name">Guess the Language</span>
+          <span class="hin">भाषा</span>
+        </button>
+        <button class="card c-random" data-cat="random">
+          <span class="emoji">🎲</span>
+          <span class="name">Random Masala Mix</span>
+          <span class="hin">थोड़ा सब कुछ – a bit of everything!</span>
+        </button>
+      </div>
+
+      <div class="center">
+        <button class="btn btn-alt" id="homeBoardBtn">🏆 View Leaderboard</button>
+      </div>
+      <p class="rules">10 questions · 20 seconds each · 10 points per right answer + bonus points for speed!</p>
+    </section>
+
+    <!-- QUIZ SCREEN -->
+    <section id="quiz" class="screen">
+      <div class="quiz-top">
+        <span class="pill" id="quizTitle"></span>
+        <span class="pill" id="qCount"></span>
+        <span class="pill" id="scoreNow"></span>
+        <button id="exitBtn" class="pill exit-btn">✖ Exit</button>
+      </div>
+
+      <div class="timer">
+        <div id="timerBar"></div>
+        <span id="timerText"></span>
+      </div>
+
+      <div class="question-box">
+        <p id="qText"></p>
+        <div id="qBig" class="big"></div>
+        <p id="qHint" class="hint"></p>
+      </div>
+
+      <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+      <div class="center">
+        <button id="nextBtn" class="btn hidden">Next ➜</button>
+      </div>
+    </section>
+
+    <!-- RESULT SCREEN -->
+    <section id="result" class="screen">
+      <div class="center">
+        <h2 class="ribbon">Interval! Your Score</h2>
+        <p class="big-score"><span id="finalScore">0</span> <small>points</small></p>
+        <p class="correct-count" id="correctCount"></p>
+        <p class="result-msg" id="resultMsg"></p>
+
+        <form id="saveForm" class="save-form">
+          <input id="playerName" maxlength="15" placeholder="Enter your name" required>
+          <button class="btn" type="submit">Save to Leaderboard</button>
+        </form>
+
+        <button id="playAgainBtn" class="btn btn-alt">↺ Play Another Quiz</button>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD SCREEN -->
+    <section id="board" class="screen">
+      <div class="center"><h2 class="ribbon">🏆 Hall of Fame</h2></div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Name</th><th>Quiz</th><th>Score</th></tr>
+          </thead>
+          <tbody id="boardBody"></tbody>
+        </table>
+      </div>
+
+      <div class="center">
+        <button id="boardHomeBtn" class="btn">Back to Home</button>
+        <br>
+        <button id="clearBtn" class="link-btn">Reset leaderboard</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with ❤ &amp; extra masala for International Day</footer>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
