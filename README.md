@@ -2,6 +2,8 @@
 
 **भारत की महा पहेली**: a colourful, Bollywood-poster-style quiz about Indian art, cinema, festivals and languages. It was built for an **International Day booth**, so visitors can walk up, pick a category and play a quick 10-question round.
 
+### ▶️ Play it live: https://sameeha0.github.io/desi/
+
 ![Quiz Mahal home screen](docs/screenshot-home.png)
 
 ---
